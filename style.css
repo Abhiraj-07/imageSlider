@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+.slide-container{
+
+    position: relative;
+    top: 50px;
+    width: 100%;
+
+}
+
+
+#moveright{
+    right: 5px;
+
+}
+#moveleft{
+left: 5px;
+}
+.move{
+    border-radius: 15px;
+    /* background-color: #fff; */
+    background-color: rgba(255, 255, 255, 0.669);
+
+
+    color: black ;
+    padding: 5px;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+}
+
+.slide{
+    width: 100%;
+    display: none;
+
+}
+.slide img{
+    height: 60vh;
+    width: 100%; 
+}

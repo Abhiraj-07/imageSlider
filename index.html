@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="sliderShow('-1')">
+<div class="slide-container">
+
+    <div class="move" id="moveleft" onclick="sliderShow('-1')">
+        &larr;
+    </div>
+    <div class="slide" >
+        <img src="maciek-sulkowski-VtQ7UGevG-I-unsplash.jpg">
+
+    </div>
+
+    <div class="slide">
+        <img src="/marek-piwnicki-KHEFntXfw68-unsplash.jpg">
+
+    </div>
+    <div class="slide">
+        <img src="./mk-s-d5GLAjZGT9E-unsplash.jpg">
+
+    </div>
+    <div class="slide">
+        <img src="./nunzio-guerrera-hJizG5nfomc-unsplash.jpg">
+
+    </div>
+    
+    <div class="move" onclick="sliderShow(1)" id="moveright">
+        &rarr;
+    </div>
+</div>
+    <script src="/script.js"></script>
+    
+</body>
+</html>
